@@ -57,7 +57,7 @@ const LoginCard = () => {
         <h2>Login</h2>
         <form>
           <input placeholder="Email" />
-          <input placeholder="Senha" />
+          <input type="password" placeholder="Senha" />
           <Link to="/control-panel">
           <button>Entrar</button>
           </Link>

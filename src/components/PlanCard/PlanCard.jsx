@@ -7,6 +7,7 @@ const PlanCardContainer = styled.div`
   height: 390px;
   display: flex;
   border-radius: 12px;
+  border: 3px solid #2d8bba;
   flex-direction: column;
   align-items: center;
 
@@ -29,16 +30,15 @@ const PlanCardBenefits = styled.div`
 `;
 
 const PlanCard = (props) => {
-
   const CtaPrice = styled.div`
-  margin-top: ${props.margin};
-  width: 70%;
+    margin-top: ${props.margin};
+    width: 70%;
 
-  & p{
-    margin-bottom: 10px;
-    font-size: 2.2vmin;
-  }
-`
+    & p {
+      margin-bottom: 10px;
+      font-size: 2.2vmin;
+    }
+  `;
 
   return (
     <>

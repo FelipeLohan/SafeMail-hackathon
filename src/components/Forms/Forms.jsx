@@ -8,7 +8,7 @@ const FormGrid = styled.div`
 
 const FormsContainer = styled.form`
   display: flex;
-  background: #87c0cd;
+  background: linear-gradient(90deg, #3a6ad6, #2d8bba);
   width: 60%;
   height: 600px;
   flex-direction: column;
@@ -37,7 +37,7 @@ const DoubleInputs = styled.div`
 const FormsTitle = styled.h1`
   margin-top: 45px;
   font-size: 6vmin;
-  color: #003049;
+  color: #fff;
 `;
 const Forms = () => {
   return (
@@ -76,7 +76,7 @@ const Forms = () => {
               format="text"
               width="100%"
               heigth="100px"
-              text="Conte um da sua necessidade:"
+              text="Conte um pouco da sua necessidade:"
             />
             <Button
               width=""

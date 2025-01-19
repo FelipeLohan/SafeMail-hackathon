@@ -6,7 +6,7 @@ const HeroBannerContainer = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #113f67;
+  background: linear-gradient(90deg, #3a6ad6, #2d8bba);
   text-align: center;
   padding: 200px 60px;
   gap: 40px;
