@@ -19,7 +19,7 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
   
-  background: linear-gradient(to bottom,rgb(204, 235, 255), #f0f8ff);
+  background-color: #f0f8ff;
   box-sizing: border-box;
 }
 

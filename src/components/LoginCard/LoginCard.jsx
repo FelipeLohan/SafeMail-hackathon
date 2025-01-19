@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const LoginCardContainer = styled.div`
+  
   padding: 40px 20px;
   display: flex;
   flex-direction: column;
@@ -11,9 +12,10 @@ const LoginCardContainer = styled.div`
   background-color: #fff;
   border-radius: 8px;
   margin: 0 auto;
+  margin-top: 10%;
 
   h2{
-    color: #636363;
+    color: #003049;
     font-size: 4vmin;
   }
 
@@ -34,7 +36,7 @@ const LoginCardContainer = styled.div`
   }
 
   form input{
-    border: 1px solid #D9D9D9;
+    border: 1px solid #003049;
     
   }
 

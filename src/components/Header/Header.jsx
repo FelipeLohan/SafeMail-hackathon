@@ -1,6 +1,7 @@
 import Logo from "../../../public/Logo.svg";
 import styled from "styled-components";
 import { Button } from "../Button";
+import { Link } from "react-router";
 
 const HeaderContainer = styled.header`
   padding: 15px 40px;
@@ -11,21 +12,27 @@ const HeaderContainer = styled.header`
   background-color: #f3f9fb;
 
   img {
-    width: 5%;
+    width: 100%;
   }
 
-  & div{
+  & div {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
+  }
+
+  a img{
+    width: 60%;
   }
 `;
 
 const Header = () => {
   return (
     <HeaderContainer>
-      <img src={Logo} alt="" />
+      <Link to="/">
+        <img src={Logo} alt="" />
+      </Link>
       <div>
         <Button
           width=""
@@ -34,13 +41,15 @@ const Header = () => {
           bgcolor="#001454"
           text="Cadastrar"
         />
-        <Button
-          width=""
-          height=""
-          color="#001454"
-          bgcolor="#fff"
-          text="Entrar"
-        />
+        <Link to="/login">
+          <Button
+            width=""
+            height=""
+            color="#001454"
+            bgcolor="#fff"
+            text="Entrar"
+          />
+        </Link>
       </div>
     </HeaderContainer>
   );
