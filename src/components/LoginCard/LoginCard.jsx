@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import styled from "styled-components";
 
 const LoginCardContainer = styled.div`
@@ -57,7 +58,9 @@ const LoginCard = () => {
         <form>
           <input placeholder="Email" />
           <input placeholder="Senha" />
+          <Link to="/control-panel">
           <button>Entrar</button>
+          </Link>
         </form>
       </LoginCardContainer>
     </>

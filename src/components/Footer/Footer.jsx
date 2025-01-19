@@ -7,6 +7,7 @@ const FooterContainer = styled.footer`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 40px;
 `
 const FooterParagrafo = styled.p`
   display: flex;

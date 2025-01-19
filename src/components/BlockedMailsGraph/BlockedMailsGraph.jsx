@@ -7,9 +7,12 @@ const BlockedMailsGraphContainer = styled.section`
   flex-direction: column;
   align-items: center;
   gap: 40px;
+  background-color: #F9F5EB;  
+  padding: 40px 0;
 
   & h2{
-    font-size: 3vmin;
+    font-size: 6vmin;
+    color: #002B5B;
   }
 `;
 
