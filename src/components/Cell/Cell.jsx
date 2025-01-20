@@ -28,7 +28,7 @@ const Cell = (props) => {
   );
 };
 
-Cell.PropTypes = {
+Cell.propTypes = {
   format: PropTypes.string,
   width: PropTypes.string,
   height: PropTypes.string,
